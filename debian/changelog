@@ -1,0 +1,105 @@
+libsyntax-keyword-try-perl (0.26-1) unstable; urgency=medium
+
+  * Import upstream version 0.26.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 15 Oct 2021 17:42:31 +0200
+
+libsyntax-keyword-try-perl (0.25-1) unstable; urgency=medium
+
+  * Import upstream version 0.25.
+  * New (build) dependency: libxs-parse-keyword-perl.
+  * Declare compliance with Debian Policy 4.6.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 29 Sep 2021 15:58:02 +0200
+
+libsyntax-keyword-try-perl (0.24-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 0.24
+
+ -- Andrius Merkys <merkys@debian.org>  Thu, 02 Sep 2021 01:47:53 -0400
+
+libsyntax-keyword-try-perl (0.21-1) unstable; urgency=medium
+
+  * Import upstream version 0.21.
+  * Update years of upstream and packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 25 Jan 2021 19:13:22 +0100
+
+libsyntax-keyword-try-perl (0.20-1) unstable; urgency=medium
+
+  * Import upstream version 0.20.
+  * Declare compliance with Debian Policy 4.5.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 26 Nov 2020 19:04:33 +0100
+
+libsyntax-keyword-try-perl (0.18-1) unstable; urgency=medium
+
+  * Import upstream version 0.18.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 02 Aug 2020 15:12:29 +0200
+
+libsyntax-keyword-try-perl (0.16-1) unstable; urgency=medium
+
+  * Import upstream version 0.16.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 25 Jul 2020 17:09:54 +0200
+
+libsyntax-keyword-try-perl (0.15-1) unstable; urgency=medium
+
+  * Import upstream version 0.15.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 23 Jul 2020 18:41:16 +0200
+
+libsyntax-keyword-try-perl (0.14-1) unstable; urgency=medium
+
+  * Import upstream version 0.14.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 11 Jul 2020 16:22:46 +0200
+
+libsyntax-keyword-try-perl (0.13-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/control: update Build-Depends for cross builds.
+  * Update 'DEB_BUILD_MAINT_OPTIONS = hardening=+bindnow' to '=+all'.
+
+  [ Debian Janitor ]
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+  [ gregor herrmann ]
+  * Import upstream version 0.13.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Set Rules-Requires-Root: no.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 03 Jul 2020 19:44:59 +0200
+
+libsyntax-keyword-try-perl (0.11-1) unstable; urgency=medium
+
+  * Import upstream version 0.11.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 07 Sep 2019 14:14:17 +0200
+
+libsyntax-keyword-try-perl (0.10-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 0.10.
+  * Drop spelling.patch, applied upstream.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.4.0.
+  * Drop version constraint from build dependency.
+  * Bump debhelper-compat to 12.
+  * debian/watch: use uscan version 4.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 19 Jul 2019 16:23:29 -0300
+
+libsyntax-keyword-try-perl (0.09-1) unstable; urgency=medium
+
+  * Initial release (closes: #887801).
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 20 Jan 2018 02:41:43 +0100

@@ -1,0 +1,36 @@
+Source: libsyntax-keyword-try-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+# don't add
+#               libfuture-asyncawait-perl <!nocheck>,
+# otherwise we have a circular build dependency
+Build-Depends: debhelper-compat (= 13),
+               libmodule-build-perl,
+               libxs-parse-keyword-perl <!nocheck>,
+               perl-xs-dev,
+               perl:native
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libsyntax-keyword-try-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libsyntax-keyword-try-perl.git
+Homepage: https://metacpan.org/release/Syntax-Keyword-Try
+Rules-Requires-Root: no
+
+Package: libsyntax-keyword-try-perl
+Architecture: any
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         ${shlibs:Depends},
+         libxs-parse-keyword-perl
+Description: try/catch/finally syntax for perl
+ Syntax::Keyword::Try provides a syntax plugin that implements
+ exception-handling semantics in a form familiar to users of other languages,
+ being built on a block labeled with the try keyword, followed by at least one
+ of a catch or finally block.
+ .
+ As well as providing a handy syntax for this useful behaviour, this module
+ also serves to contain a number of code examples for how to implement parser
+ plugins and manipulate optrees to provide new syntax and behaviours for perl
+ code.
