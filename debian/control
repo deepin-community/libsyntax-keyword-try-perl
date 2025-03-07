@@ -9,10 +9,11 @@ Priority: optional
 # otherwise we have a circular build dependency
 Build-Depends: debhelper-compat (= 13),
                libmodule-build-perl,
-               libxs-parse-keyword-perl <!nocheck>,
+               libtest2-suite-perl <!nocheck>,
+               libxs-parse-keyword-perl (>= 0.35),
                perl-xs-dev,
                perl:native
-Standards-Version: 4.6.0
+Standards-Version: 4.7.0
 Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libsyntax-keyword-try-perl
 Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libsyntax-keyword-try-perl.git
 Homepage: https://metacpan.org/release/Syntax-Keyword-Try
@@ -23,7 +24,7 @@ Architecture: any
 Depends: ${misc:Depends},
          ${perl:Depends},
          ${shlibs:Depends},
-         libxs-parse-keyword-perl
+         libxs-parse-keyword-perl (>= 0.35)
 Description: try/catch/finally syntax for perl
  Syntax::Keyword::Try provides a syntax plugin that implements
  exception-handling semantics in a form familiar to users of other languages,

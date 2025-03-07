@@ -1,3 +1,50 @@
+libsyntax-keyword-try-perl (0.30-1) unstable; urgency=medium
+
+  * Import upstream version 0.30.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.7.0.
+  * Make (build) dependency on libxs-parse-keyword-perl versioned.
+  * Remove debian/clean, not needed anymore.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 01 Sep 2024 17:36:58 +0200
+
+libsyntax-keyword-try-perl (0.29-2) unstable; urgency=medium
+
+  * Remove build artifact via debian/clean. (Closes: #1048889)
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 08 Mar 2024 20:04:16 +0100
+
+libsyntax-keyword-try-perl (0.29-1) unstable; urgency=medium
+
+  * Import upstream version 0.29.
+  * Update test dependencies.
+  * Update years of upstream copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 17 Jul 2023 19:11:22 +0200
+
+libsyntax-keyword-try-perl (0.28-2) unstable; urgency=medium
+
+  * debian/control: remove wrong <!nocheck> annotation.
+  * Declare compliance with Debian Policy 4.6.2.
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 03 Jul 2023 19:08:51 +0200
+
+libsyntax-keyword-try-perl (0.28-1) unstable; urgency=medium
+
+  * Import upstream version 0.28.
+  * Declare compliance with Debian Policy 4.6.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 16 Dec 2022 19:42:39 +0100
+
+libsyntax-keyword-try-perl (0.27-1) unstable; urgency=medium
+
+  * Import upstream version 0.27.
+  * Update years of upstream and packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 25 Feb 2022 17:52:30 +0100
+
 libsyntax-keyword-try-perl (0.26-1) unstable; urgency=medium
 
   * Import upstream version 0.26.
